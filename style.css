@@ -1,0 +1,96 @@
+:root {
+  font-size: 62.5%; /*1rem = 10px*/
+
+  --primary-color: hsl(170, 100%, 26%);
+  --headline-color: hsl(210, 11%, 15%);
+  --paragraph-color: hsl(210, 9%, 31%);
+  --green-light: hsl(148, 23%, 89%);
+  --beige-color: hsl(39, 100%, 97%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+header {
+  width: 375px;
+  margin: auto;
+  padding: 4.1rem 2.4rem 0 2.4rem;
+
+  background-color: var(--green-light);
+}
+
+h4 {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: var(--primary-color);
+  margin-bottom: 1.6rem;
+}
+
+h1 {
+  font-size: 3.4rem;
+  line-height: 4.42rem;
+  color: var(--headline-color);
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--paragraph-color);
+  margin-bottom: 3.2rem;
+}
+
+button {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 4rem;
+  padding: 17px 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6rem;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.numbers {
+  width: 327px;
+  height: 470px;
+  padding: 4rem 7rem;
+  background-color: var(--beige-color);
+  border: 1px solid #dce9e2;
+
+  top: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.numbers h3 {
+  color: var(--headline-color);
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 6.24rem;
+}
+
+.numbers p {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+}
